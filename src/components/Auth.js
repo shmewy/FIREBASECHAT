@@ -12,13 +12,14 @@ export const Auth = ({ setIsAuth }) => {
       cookies.set("auth-token", result.user.refreshToken);
       setIsAuth(true);
     } catch (err) {
-      console.error(err);
+      alert('error')
     }
   };
+
   return (
     <div className="auth">
-      <p> Sign In With Google To Continue </p>
-      <button onClick={signInWithGoogle}> Sign In With Google </button>
+      <p>Sign In With Google To Continue</p>
+      <button onClick={signInWithGoogle}>Sign In With Google</button>
     </div>
   );
 };
