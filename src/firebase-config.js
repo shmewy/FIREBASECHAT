@@ -7,7 +7,6 @@ import { getFirestore } from "@firebase/firestore";
 const firebaseConfig = {
   apiKey: "AIzaSyB4UN3nst1WLILNcLnjPmrfwAHcgpmo6zM",
   authDomain: "lunaticchatroom.firebaseapp.com",
-  databaseURL: "https://lunaticchatroom-default-rtdb.firebaseio.com",
   projectId: "lunaticchatroom",
   storageBucket: "lunaticchatroom.appspot.com",
   messagingSenderId: "1015861532385",
