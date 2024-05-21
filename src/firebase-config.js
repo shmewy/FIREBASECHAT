@@ -5,13 +5,14 @@ import { getFirestore } from "@firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBw8kPQkxNvVY2cB6ghVc20FlxhP4e_Xs4",
-  authDomain: "testproj-531d7.firebaseapp.com",
-  projectId: "testproj-531d7",
-  storageBucket: "testproj-531d7.appspot.com",
-  messagingSenderId: "705585244276",
-  appId: "1:705585244276:web:6905459d1c0800f7ba0921",
-  measurementId: "G-KWJSWQRNV0"
+  apiKey: "AIzaSyB4UN3nst1WLILNcLnjPmrfwAHcgpmo6zM",
+  authDomain: "lunaticchatroom.firebaseapp.com",
+  databaseURL: "https://lunaticchatroom-default-rtdb.firebaseio.com",
+  projectId: "lunaticchatroom",
+  storageBucket: "lunaticchatroom.appspot.com",
+  messagingSenderId: "1015861532385",
+  appId: "1:1015861532385:web:6622ca215026250972c9a0",
+  measurementId: "G-WHGGZNNLMW"
 };
 
 // Initialize Firebase
